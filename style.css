@@ -127,7 +127,7 @@ img {
 }
 
 /* CHAIRS */
-.chair{
+.chair {
     border-radius: 8px;
     padding: 24px;
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
@@ -162,10 +162,11 @@ h3 {
 .chair-price {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 20px;
 }
 
-.btn{
+.btn {
     border-radius: 100px;
 }
 .btn:link,
@@ -173,8 +174,6 @@ h3 {
     background-color: #0b7285;
     color: #fff;
     text-decoration: none;
-    /* padding: 16px 32px; */
-    /* font-size: 20px; */
     font-weight: 500;
     text-transform: uppercase;
     display: inline-block;
@@ -185,15 +184,13 @@ h3 {
     background-color: #0c8599;
 }
 
-.btn--big{
+.btn--big {
     font-size: 20px;
     padding: 16px 32px;
 }
-.btn--small{
+.btn--small {
     font-size: 14px;
     padding: 8px 12px;
-    /* font-weight: bold; */
-    /* background-color: red; */
 }
 
 footer {
